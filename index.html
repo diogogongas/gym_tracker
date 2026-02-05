@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Cards</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<header>
+  <h1>Ginásio</h1>
+
+  <div class="menu-toggle" id="menuToggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+ 
+  <div class="auth" id="navMenu">
+    <a href="about.html" data-filter="Todos">Todos</a>
+    <a href="login.html" data-filter="Peito">Peito</a>
+    <a href="login.html" data-filter="Triceps">Triceps</a>
+    <a href="login.html" data-filter="Ombro">Ombro</a>
+    <a href="registo.html" data-filter="Costas">Costas</a>
+    <a href="login.html" data-filter="Biceps">Biceps</a>
+    <a href="registo.html" data-filter="Pernas">Pernas</a>
+  </div>
+</header>
+
+<body>
+
+
+  <div class="cards">
+    <div class="card">
+      <img src="images/gif/supino_maquina_inclinado.gif" alt="Imagem 1">
+      <div class="card-content">
+        <h2>Supino máquina inclinado</h2>
+        <p>Este é um exemplo de card feito apenas com HTML e CSS.</p>
+        <a href="#" class="open-modal" 
+        data-filter="Peito"
+        data-title="Supino Máquina Inclinado"
+        data-img="images/gif/supino_maquina_inclinado.gif" 
+        data-section="Peito"
+        data-info="
+   <!-- Séries: 4x10<br> -->
+   Carga inicial: 5Kg<br>
+   Carga atual: 10Kg<br><br>
+   <!-- Músculos: Peitoral, tríceps, ombros -->
+   ">
+          Ver mais
+        </a>
+
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/gif/supino_inclinado_halteres.gif" alt="Imagem 2">
+      <div class="card-content">
+        <h2>Supino Inclinado com Halteres</h2>
+        <p>Os cards adaptam-se automaticamente ao layout em grid.</p>
+        <a href="#" class="open-modal" 
+        data-filter="Peito"
+        data-title="Supino Inclinado Halteres"
+          data-img="images/gif/supino_inclinado_halteres.gif" 
+               data-section="Peito"
+          data-info="
+   <!-- Início: 5Kg<br> -->
+   Carga inicial: 5Kg<br>
+   Carga atual: 10Kg<br><br>
+   <!-- Músculos: Peito superior, ombros, tríceps -->
+   ">
+          Ver mais
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/gif/cruxifixo_peito.gif" alt="Imagem 3">
+      <div class="card-content">
+        <h2>Crucifixo (Peito)</h2>
+        <p>Podes usar este layout para portfólios ou produtos.</p>
+        <a href="#" class="open-modal" 
+        data-filter="Peito"
+        data-title="Crucifixo (Peito)" 
+        data-img="images/gif/cruxifixo_peito.gif"
+             data-section="Peito"
+          data-info="
+    <!-- Carga inicial: 5Kg<br>
+   Carga atual: 10Kg<br><br> -->
+   Preciso anotar
+   ">
+          Ver mais
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/gif/supino_maquina.gif" alt="Imagem 4">
+      <div class="card-content">
+        <h2>Supino Reto Máquina</h2>
+        <p>Quatro cards por linha em ecrãs grandes.</p>
+        <a href="#" class="open-modal" 
+        data-filter="Peito"
+        data-title="Supino Reto Máquina"
+        data-img="images/gif/supino_maquina.gif"
+             data-section="Peito"
+          data-info="
+   Carga inicial: Preciso anotar<br>
+   Carga atual: 38Kg<br><br>
+   ">
+          Ver mais
+        </a>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/gif/ombro_maquina.gif" alt="Imagem 5">
+      <div class="card-content">
+        <h2>Ombro máquina Inclinado</h2>
+        <p>O Grid cria novas linhas automaticamente.</p>
+        <a href="#" class="open-modal" 
+        data-filter="Ombro"
+        data-title="Ombro máquina Inclinado" 
+        data-img="images/gif/ombro_maquina.gif"
+             data-section="Ombro"
+          data-info="
+   Preciso anotar
+   ">
+          Ver mais
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/gif/cruxifixo_costas.gif" alt="Imagem 7">
+      <div class="card-content">
+        <h2>Crucifixo (Costas)</h2>
+        <p>Podes duplicar cards sem mexer no CSS.</p>
+        <a href="#" class="open-modal"
+        data-filter="Costas"
+         data-title="Crucifixo (Costas)"
+          data-img="images/gif/cruxifixo_costas.gif"
+               data-section="Costas"
+          data-info="
+Preciso anotar
+   ">
+          Ver mais
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/gif/triceps_polia.gif" alt="Imagem 8">
+      <div class="card-content">
+        <h2>Triceps Polia</h2>
+        <p>Este layout escala facilmente.</p>
+        <a href="#" class="open-modal"
+        data-filter="Triceps"
+         data-title="Triceps Polia"
+          data-img="images/gif/triceps_polia.gif"
+               data-section="Triceps"
+           data-info="
+Preciso anotar
+   ">
+          Ver mais
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/gif/triceps_frances_polia.gif" alt="Imagem 9">
+      <div class="card-content">
+        <h2>Tricep Francês Polia</h2>
+        <p>Com 12 cards tens 3 linhas.</p>
+        <a href="#" class="open-modal"
+        data-filter="Triceps"
+         data-title="Tricep Francês Polia"
+          data-img="images/gif/triceps_frances_polia.gif"
+               data-section="Triceps"
+          data-info="
+Preciso anotar
+   ">
+          Ver mais
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/gif/bicep_polia.gif" alt="Imagem 10">
+      <div class="card-content">
+        <h2>Bicep Polia</h2>
+        <p>Grid organiza tudo automaticamente.</p>
+        <a href="#" class="open-modal"
+        data-filter="Biceps"
+         data-title="Bicep Polia" 
+         data-img="images/gif/bicep_polia.gif"
+              data-section="Biceps"
+          data-info="
+Preciso anotar
+   ">
+          Ver mais
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/gif/bicep_martelo_halteres.gif" alt="Imagem 11">
+      <div class="card-content">
+        <h2>Bicep Martelo com Halteres</h2>
+        <p>Não é preciso definir larguras.</p>
+        <a href="#" class="open-modal"
+        data-filter="Biceps"
+         data-title="Bicep Martelo com Halteres"
+          data-img="images/gif/bicep_martelo_halteres.gif" 
+               data-section="Biceps"
+          data-info="
+Preciso anotar
+   ">
+          Ver mais
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/gif/puxador_frente.gif" alt="Imagem 10">
+      <div class="card-content">
+        <h2>Puxador Frente</h2>
+        <p>Grid organiza tudo automaticamente.</p>
+        <a href="#" class="open-modal"
+        data-filter="Costas"
+         data-title="Puxador Frente" 
+         data-img="images/gif/puxador_frente.gif"
+              data-section="Costas"
+         data-info="
+Preciso anotar
+   ">
+          Ver mais
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/gif/remada_sentado.gif" alt="Imagem 11">
+      <div class="card-content">
+        <h2>Remada na Polia</h2>
+        <p>Não é preciso definir larguras.</p>
+        <a href="#" class="open-modal"
+        data-filter="Costas"
+         data-title="Remada na Polia" 
+         data-img="images/gif/remada_sentado.gif"
+              data-section="Costas"
+          data-info="
+Preciso anotar
+   ">
+          Ver mais
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/gif/remada_cavalinho.gif" alt="Imagem 12">
+      <div class="card-content">
+        <h2>Remada Cavalinho</h2>
+        <p>Grid cuida de tudo por ti.</p>
+        <a href="#" class="open-modal"
+        data-filter="Costas"
+         data-title="Remada Cavalinho"
+          data-img="images/gif/remada_cavalinho.gif"
+               data-section="Costas"
+          data-info="
+Preciso anotar
+   ">
+          Ver mais
+        </a>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <img src="images/gif/remada_maquina.gif" alt="Imagem 10">
+      <div class="card-content">
+        <h2>Remada Máquina</h2>
+        <p>Grid organiza tudo automaticamente.</p>
+        <a href="#" class="open-modal" 
+        data-filter="Costas"
+        data-title="Remada Máquina" 
+        data-img="images/gif/remada_maquina.gif"
+             data-section="Costas"
+         data-info="
+Preciso anotar
+   ">
+          Ver mais
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+
+ 
+  <div class="modal-overlay" id="modal">
+    <div class="modal">
+      <button class="close-modal" id="closeModal">&times;</button>
+
+      <h2 id="modalTitle"></h2>
+      <img src="" alt="" id="modalImg">
+
+      <p id="modalInfo"></p>
+    </div>
+  </div>
+
+  <script src="script/modals.js"></script>
+  <script src="script/sections.js"></script>
+    <script src="script/menu.js"></script>
+
+</body>
+
+</html>
